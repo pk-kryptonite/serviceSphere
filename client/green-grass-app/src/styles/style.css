@@ -1,0 +1,85 @@
+.btn-style {
+    width: 43%;
+    height: 2.3pc;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.btn-style-lg {
+    width: 75%;
+    height: 2.5pc;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+
+.container-block {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.bg-1 {
+    background: url("./../assets/images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-2 {
+    background: url("./../assets/images/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pointer{
+    cursor: pointer;
+}
+.icon-btn{
+    display: table-cell;
+    color: var(--primary-color);
+    background-color:var(--white-color);
+    border-radius: 10px;
+    border-color: aliceblue;
+    border-width: 1px;
+    border-style: solid;
+    margin: 1rem;
+    padding: 0.5rem  1rem;
+    vertical-align: middle;
+    box-shadow: 2px 2px #53535322;
+}
+.icon-btn-inverse{
+    display: table-cell;
+    color: var(--white-color);
+    background-color:var(--primary-color);
+    border-radius: 10px;
+    border-color: var(--primary-color);
+    border-width: 1px;
+    border-style: solid;
+    margin: 1rem;
+    padding: 0.5rem  1rem;
+    vertical-align: middle;
+    box-shadow: 2px 2px #5353535d;
+}
+
+.title{
+    font-size: xx-large;
+    font-weight: 700;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+.sub-title{
+    font-size: medium;
+    text-transform: uppercase;
+    color: rgb(174, 169, 169);
+    margin: 0.5rem 0 ;
+    margin-left: 1.5rem;
+}
+.menu-title{
+    font-size: x-large;
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+.menu-subtitle{
+    font-size: medium;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.763);
+    margin: 0.5rem 0 ;
+    margin-left: 1.5rem;
+}

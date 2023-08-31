@@ -1,0 +1,17 @@
+<div class="menu" [ngStyle]="{'display':menuState?'block':'none'}">
+<div class="d-flex justify-content-between">
+    <span class="icon-btn-inverse" (click)="closeMenu()">
+        <i class="fas fa-times"></i>
+    </span>
+</div>
+<h3 class="menu-subtitle">upcoming bookings</h3>
+<div class="bookings">
+
+</div>
+<h3 class="menu-subtitle">menu</h3>
+<h1 class="menu-title" routerLink="/dashboard" routerLinkActive="active">Dashboard</h1>
+<h1 class="menu-title" routerLink="/services" routerLinkActive="active">Services</h1>
+<h1 class="menu-title">Bookings</h1>
+<h1 class="menu-title">Our work</h1>
+<h1 class="menu-title">Account</h1>
+</div>
