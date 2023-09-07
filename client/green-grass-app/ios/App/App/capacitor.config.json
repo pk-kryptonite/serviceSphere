@@ -1,6 +1,0 @@
-{
-	"appId": "za.co.mhi.green.grass",
-	"appName": "Green Grass",
-	"webDir": "dist/green-grass-app",
-	"bundledWebRuntime": false
-}

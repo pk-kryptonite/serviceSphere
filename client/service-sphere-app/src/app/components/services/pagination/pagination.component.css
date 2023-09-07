@@ -1,0 +1,38 @@
+.page-link {
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.active-link {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+.disable {
+    cursor: default;
+}
+.filter-bg{
+    background-color:var(--primary-color-light);
+
+}
+.service-item {
+    box-shadow: 2px 2px #8f8f8f53;
+    border-color: rgba(145, 145, 145, 0.095);
+    border-width: 0.1rem;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 1.5rem auto;
+    padding: 0.5em 0;
+}
+.service-info{
+    font-size: small;
+    margin: 0;
+    margin-block-start: 0em;
+}
+.service-info-name{
+    width: 60px;
+    text-overflow: ellipsis;
+}
+.filter-bg p{
+    font-size: medium;
+}

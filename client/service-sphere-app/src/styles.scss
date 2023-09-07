@@ -1,0 +1,28 @@
+@import "./styles/style.css";
+@import "./styles/color.css";
+@import "./styles/size.css";
+body{
+    background-color: #ffffff;
+    color:#5A5A5A;
+    font-size: larger;
+}
+:root {
+    --surface: #121212;
+    --layer01: color-mix(in srgb, white 5%, var(--surface));
+    --layer02: color-mix(in srgb, white 7%, var(--surface));
+    --layer03: color-mix(in srgb, white 8%, var(--surface));
+    --layer04: color-mix(in srgb, white 9%, var(--surface));
+    --layer06: color-mix(in srgb, white 11%, var(--surface));
+    --layer08: color-mix(in srgb, white 11%, var(--surface));
+    --layer12: color-mix(in srgb, white 14%, var(--surface));
+    --layer16: color-mix(in srgb, white 15%, var(--surface));
+    --layer24: color-mix(in srgb, white 16%, var(--surface));
+    --primary-variant: #1d8700;
+    --primary-color: #28c10f;
+    --primary-color-light: #2cea0e79;
+    --secondary-color: #b3d4aa;
+    --white-color:#FFFFFF;
+    --error-color: #CF6679;
+    --gray-text-color: #B3B6B7;
+    --primary-color-dark: color-mix(in srgb, var(--primary-color), black 10%);
+}
