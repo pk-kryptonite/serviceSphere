@@ -8,7 +8,8 @@ class Country(models.Model):
     class Meta:
         db_table = 'Country'
         
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
+    is_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
@@ -18,7 +19,8 @@ class Country(models.Model):
 class Province(models.Model):
     class Meta:
         db_table = 'Province'
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, unique=True)
+    is_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
@@ -35,6 +37,7 @@ class Address(models.Model):
     longitude = models.DecimalField(max_digits=11, decimal_places=8, blank=True, null=True)
     province = models.ForeignKey(Province, on_delete=models.CASCADE)
     country = models.ForeignKey(Country, on_delete=models.CASCADE)
+    is_confirmed = models.BooleanField(default=False)
 
     def __str__(self):
         return f"{self.street_number} {self.suburb}"
