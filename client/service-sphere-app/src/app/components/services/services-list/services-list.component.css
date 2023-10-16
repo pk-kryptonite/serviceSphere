@@ -1,17 +1,15 @@
-.service-category {
-    background-color: var(--primary-color);
-    color: var(--white-color);
-    margin: 0.5rem 0.5rem;
-    border-radius: 0.5rem;
-    padding: 5px;
-    text-align: center;
+.service-category{
+    width: 45%;
+    margin: 0.5rem;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 2px #3535353b;
 }
-
-.service-category-container {
-    max-width: 100%;
-    overflow-x: hidden;
+.service-category a{
+    font-size: medium;
 }
-
-.service-category-container:hover {
-    overflow-x: scroll;
+.service-category img{
+    width: 100px;
+    height: 60px;
+    margin-top: 1.5rem;
 }

@@ -1,7 +1,12 @@
-<ng-container>
-    <div class="d-flex flex-row service-category-container">
-        <div class="service-category" *ngFor="let service of services">
-            <a>{{service}}</a>
-        </div>
+<ng-container class="mx-auto">
+    <div class="d-flex align-content-stretch flex-wrap text-center">
+        <ng-container *ngFor="let service of services">
+            <div (click)="goToService(service)" class="service-category">
+                <p class="text-center"><img src="../../../../assets/images/{{service}}.jpg" alt="{{service}}"></p>
+                <a>{{service}}</a>
+            </div>
+        </ng-container>
     </div>
+<!--Image by <a href="https://www.freepik.com/free-vector/person-lawn-mowing-outdoors-illustration_21743931.htm#query=lawn%20mower&position=16&from_view=search&track=ais">Freepik</a>-->
+            
 </ng-container>

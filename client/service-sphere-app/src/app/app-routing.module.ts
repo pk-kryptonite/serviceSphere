@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/user/login-page/login-page.component';
 import { DashboardPageComponent } from './pages/user/dashboard-page/dashboard-page.component';
-import { ServicesPageComponent } from './pages/services-page/services-page.component';
+import { ServicesPageComponent } from './pages/services/services-page/services-page.component';
+import { CategoryPageComponent } from './pages/services/category-page/category-page.component';
 
 const routes: Routes = [{
   component: HomeComponent,
@@ -21,6 +22,9 @@ const routes: Routes = [{
 }, {
   component: ServicesPageComponent,
   path: "services"
+}, {
+  component: CategoryPageComponent,
+  path: "service/category"
 }];
 
 @NgModule({

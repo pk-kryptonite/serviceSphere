@@ -10,9 +10,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HomeComponent } from './pages/home/home.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { MenuComponent } from './components/menu/menu.component';
-import { ServicesPageComponent } from './pages/services-page/services-page.component';
+import { ServicesPageComponent } from './pages/services/services-page/services-page.component';
 import { ServicesListComponent } from './components/services/services-list/services-list.component';
 import { PaginationComponent } from './components/services/pagination/pagination.component';
+import { CategoryPageComponent } from './pages/services/category-page/category-page.component';
+import { provideRouter, withComponentInputBinding } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,8 @@ import { PaginationComponent } from './components/services/pagination/pagination
     MenuComponent,
     ServicesPageComponent,
     ServicesListComponent,
-    PaginationComponent
+    PaginationComponent,
+    CategoryPageComponent
   ],
   imports: [
     BrowserModule,
